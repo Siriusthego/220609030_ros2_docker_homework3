@@ -1,0 +1,277 @@
+[0.010s] Invoking command in '/home/abdullahemirkirecci/project_root/build/command_server_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdullahemirkirecci/project_root/install/sensor_publisher_pkg:/home/abdullahemirkirecci/project_root/install/data_processor_pkg:/opt/ros/humble /usr/bin/cmake /home/abdullahemirkirecci/project_root/src/command_server_pkg -DCMAKE_INSTALL_PREFIX=/home/abdullahemirkirecci/project_root/install/command_server_pkg
+[0.014s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.014s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.014s]   CMake.
+[0.015s] 
+[0.015s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.015s]   to tell CMake that the project requires at least <min> but has been updated
+[0.015s]   to work with policies introduced by <max> or earlier.
+[0.015s] 
+[0.015s] [0m
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.126s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.275s] -- Detecting CXX compiler ABI info
+[0.371s] -- Detecting CXX compiler ABI info - done
+[0.385s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.385s] -- Detecting CXX compile features
+[0.386s] -- Detecting CXX compile features - done
+[0.395s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.511s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.661s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.662s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.671s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.712s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.133s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.594s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.062s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.064s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[2.064s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.064s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.065s]   the cmake_policy command to set the policy and suppress this warning.
+[2.065s] 
+[2.065s] Call Stack (most recent call first):
+[2.065s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.065s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.065s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[2.065s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.065s] [0m
+[2.088s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[2.090s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.091s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[2.091s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.091s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.091s]   the cmake_policy command to set the policy and suppress this warning.
+[2.091s] 
+[2.091s] Call Stack (most recent call first):
+[2.091s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.091s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.091s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.091s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[2.091s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.091s] [0m
+[2.112s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[2.112s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.112s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.112s]   the cmake_policy command to set the policy and suppress this warning.
+[2.112s] 
+[2.113s] Call Stack (most recent call first):
+[2.113s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.113s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.113s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.113s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[2.113s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.113s] [0m
+[2.123s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[2.123s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.123s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.123s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.145s] -- Found PythonExtra: .so
+[2.182s] -- Configuring done (2.2s)
+[2.229s] -- Generating done (0.0s)
+[2.238s] -- Build files have been written to: /home/abdullahemirkirecci/project_root/build/command_server_pkg
+[2.248s] Invoked command in '/home/abdullahemirkirecci/project_root/build/command_server_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdullahemirkirecci/project_root/install/sensor_publisher_pkg:/home/abdullahemirkirecci/project_root/install/data_processor_pkg:/opt/ros/humble /usr/bin/cmake /home/abdullahemirkirecci/project_root/src/command_server_pkg -DCMAKE_INSTALL_PREFIX=/home/abdullahemirkirecci/project_root/install/command_server_pkg
+[2.252s] Invoking command in '/home/abdullahemirkirecci/project_root/build/command_server_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdullahemirkirecci/project_root/install/sensor_publisher_pkg:/home/abdullahemirkirecci/project_root/install/data_processor_pkg:/opt/ros/humble /usr/bin/cmake --build /home/abdullahemirkirecci/project_root/build/command_server_pkg -- -j8 -l8
+[2.277s] [  3%] [1m[34mGenerating C code for ROS interfaces[0m
+[2.282s] [  6%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[2.288s] [  6%] Built target ament_cmake_python_copy_command_server_pkg
+[2.529s] running egg_info
+[2.530s] creating command_server_pkg.egg-info
+[2.530s] writing command_server_pkg.egg-info/PKG-INFO
+[2.530s] writing dependency_links to command_server_pkg.egg-info/dependency_links.txt
+[2.530s] writing top-level names to command_server_pkg.egg-info/top_level.txt
+[2.531s] writing manifest file 'command_server_pkg.egg-info/SOURCES.txt'
+[2.535s] reading manifest file 'command_server_pkg.egg-info/SOURCES.txt'
+[2.535s] writing manifest file 'command_server_pkg.egg-info/SOURCES.txt'
+[2.571s] [  6%] Built target command_server_pkg__cpp
+[2.579s] [ 16%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[2.579s] [ 16%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.579s] [ 16%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.592s] [ 19%] [32mBuilding C object CMakeFiles/command_server_pkg__rosidl_generator_c.dir/rosidl_generator_c/command_server_pkg/srv/detail/compute_command__functions.c.o[0m
+[2.596s] [ 19%] Built target ament_cmake_python_build_command_server_pkg_egg
+[2.662s] [ 22%] [1m[32mLinking C shared library libcommand_server_pkg__rosidl_generator_c.so[0m
+[2.697s] [ 22%] Built target command_server_pkg__rosidl_generator_c
+[2.704s] [ 29%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[2.704s] [ 29%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[2.704s] [ 32%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[2.836s] [ 35%] [32mBuilding CXX object CMakeFiles/command_server_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/command_server_pkg/srv/compute_command__type_support.cpp.o[0m
+[2.850s] [ 38%] [32mBuilding CXX object CMakeFiles/command_server_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/command_server_pkg/srv/detail/compute_command__type_support.cpp.o[0m
+[2.938s] [ 41%] [32mBuilding CXX object CMakeFiles/command_server_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/command_server_pkg/srv/detail/dds_fastrtps/compute_command__type_support.cpp.o[0m
+[3.075s] [ 45%] [32mBuilding CXX object CMakeFiles/command_server_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/command_server_pkg/srv/compute_command__type_support.cpp.o[0m
+[3.088s] [ 48%] [32mBuilding CXX object CMakeFiles/command_server_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/command_server_pkg/srv/detail/compute_command__type_support_c.cpp.o[0m
+[3.094s] [ 51%] [32mBuilding C object CMakeFiles/command_server_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/command_server_pkg/srv/detail/compute_command__type_support.c.o[0m
+[3.113s] [ 54%] [1m[32mLinking CXX shared library libcommand_server_pkg__rosidl_typesupport_c.so[0m
+[3.148s] [ 58%] [1m[32mLinking C shared library libcommand_server_pkg__rosidl_typesupport_introspection_c.so[0m
+[3.155s] [ 58%] Built target command_server_pkg__rosidl_typesupport_c
+[3.178s] [ 58%] Built target command_server_pkg__rosidl_typesupport_introspection_c
+[3.221s] [ 61%] [1m[32mLinking CXX shared library libcommand_server_pkg__rosidl_typesupport_cpp.so[0m
+[3.261s] [ 61%] Built target command_server_pkg__rosidl_typesupport_cpp
+[3.352s] [ 64%] [1m[32mLinking CXX shared library libcommand_server_pkg__rosidl_typesupport_introspection_cpp.so[0m
+[3.412s] [ 67%] [1m[32mLinking CXX shared library libcommand_server_pkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.441s] [ 67%] Built target command_server_pkg__rosidl_typesupport_introspection_cpp
+[3.481s] [ 70%] [1m[32mLinking CXX shared library libcommand_server_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[3.516s] [ 70%] Built target command_server_pkg__rosidl_typesupport_fastrtps_cpp
+[3.580s] [ 70%] Built target command_server_pkg__rosidl_typesupport_fastrtps_c
+[3.593s] [ 70%] Built target command_server_pkg
+[3.607s] [ 74%] [1m[34mGenerating Python code for ROS interfaces[0m
+[3.907s] [ 74%] Built target command_server_pkg__py
+[3.920s] [ 77%] [32mBuilding C object CMakeFiles/command_server_pkg__rosidl_generator_py.dir/rosidl_generator_py/command_server_pkg/srv/_compute_command_s.c.o[0m
+[4.028s] [ 80%] [1m[32mLinking C shared library rosidl_generator_py/command_server_pkg/libcommand_server_pkg__rosidl_generator_py.so[0m
+[4.059s] [ 80%] Built target command_server_pkg__rosidl_generator_py
+[4.071s] [ 90%] [32mBuilding C object CMakeFiles/command_server_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/command_server_pkg/_command_server_pkg_s.ep.rosidl_typesupport_c.c.o[0m
+[4.071s] [ 90%] [32mBuilding C object CMakeFiles/command_server_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/command_server_pkg/_command_server_pkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.071s] [ 90%] [32mBuilding C object CMakeFiles/command_server_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/command_server_pkg/_command_server_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.155s] [ 93%] [1m[32mLinking C shared library rosidl_generator_py/command_server_pkg/command_server_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.156s] [ 96%] [1m[32mLinking C shared library rosidl_generator_py/command_server_pkg/command_server_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.162s] [100%] [1m[32mLinking C shared library rosidl_generator_py/command_server_pkg/command_server_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.180s] [100%] Built target command_server_pkg__rosidl_typesupport_c__pyext
+[4.181s] [100%] Built target command_server_pkg__rosidl_typesupport_introspection_c__pyext
+[4.189s] [100%] Built target command_server_pkg__rosidl_typesupport_fastrtps_c__pyext
+[4.196s] Invoked command in '/home/abdullahemirkirecci/project_root/build/command_server_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdullahemirkirecci/project_root/install/sensor_publisher_pkg:/home/abdullahemirkirecci/project_root/install/data_processor_pkg:/opt/ros/humble /usr/bin/cmake --build /home/abdullahemirkirecci/project_root/build/command_server_pkg -- -j8 -l8
+[4.202s] Invoking command in '/home/abdullahemirkirecci/project_root/build/command_server_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdullahemirkirecci/project_root/install/sensor_publisher_pkg:/home/abdullahemirkirecci/project_root/install/data_processor_pkg:/opt/ros/humble /usr/bin/cmake --install /home/abdullahemirkirecci/project_root/build/command_server_pkg
+[4.207s] -- Install configuration: ""
+[4.207s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/ament_index/resource_index/rosidl_interfaces/command_server_pkg
+[4.207s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg
+[4.207s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg
+[4.207s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg/rosidl_generator_c__visibility_control.h
+[4.207s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv
+[4.208s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/compute_command.h
+[4.208s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail
+[4.208s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__functions.h
+[4.208s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__functions.c
+[4.208s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__type_support.h
+[4.208s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__struct.h
+[4.208s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/library_path.sh
+[4.208s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/library_path.dsv
+[4.209s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_generator_c.so
+[4.209s] -- Set non-toolchain portion of runtime path of "/home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_generator_c.so" to ""
+[4.209s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg
+[4.209s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg
+[4.209s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.209s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv
+[4.209s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail
+[4.209s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__rosidl_typesupport_fastrtps_c.h
+[4.210s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_fastrtps_c.so
+[4.210s] -- Set non-toolchain portion of runtime path of "/home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_fastrtps_c.so" to ""
+[4.210s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg
+[4.210s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg
+[4.210s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.210s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv
+[4.210s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail
+[4.210s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__type_support.c
+[4.210s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__rosidl_typesupport_introspection_c.h
+[4.211s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_introspection_c.so
+[4.211s] -- Set non-toolchain portion of runtime path of "/home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_introspection_c.so" to ""
+[4.211s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_c.so
+[4.211s] -- Set non-toolchain portion of runtime path of "/home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_c.so" to ""
+[4.211s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg
+[4.211s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg
+[4.211s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.212s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv
+[4.212s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/compute_command.hpp
+[4.212s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail
+[4.212s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__builder.hpp
+[4.212s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__type_support.hpp
+[4.212s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__traits.hpp
+[4.212s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__struct.hpp
+[4.212s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg
+[4.212s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg
+[4.212s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.212s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv
+[4.212s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail
+[4.213s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/dds_fastrtps
+[4.213s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.213s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_fastrtps_cpp.so
+[4.213s] -- Set non-toolchain portion of runtime path of "/home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.213s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg
+[4.213s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv
+[4.213s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail
+[4.213s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__type_support.cpp
+[4.213s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__rosidl_typesupport_introspection_cpp.hpp
+[4.214s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_introspection_cpp.so
+[4.214s] -- Set non-toolchain portion of runtime path of "/home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_introspection_cpp.so" to ""
+[4.214s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_cpp.so
+[4.214s] -- Set non-toolchain portion of runtime path of "/home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_cpp.so" to ""
+[4.214s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/pythonpath.sh
+[4.214s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/pythonpath.dsv
+[4.215s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg-0.0.0-py3.10.egg-info
+[4.215s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[4.215s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.215s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[4.215s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.215s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg
+[4.215s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.216s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.216s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/libcommand_server_pkg__rosidl_generator_py.so
+[4.216s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/srv
+[4.216s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/srv/_compute_command.py
+[4.216s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/srv/_compute_command_s.c
+[4.216s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/srv/__init__.py
+[4.216s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/_command_server_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[4.216s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.217s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/__init__.py
+[4.217s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/_command_server_pkg_s.ep.rosidl_typesupport_c.c
+[4.217s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/_command_server_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.248s] Listing '/home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg'...
+[4.248s] Compiling '/home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/__init__.py'...
+[4.248s] Listing '/home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/srv'...
+[4.248s] Compiling '/home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/srv/__init__.py'...
+[4.248s] Compiling '/home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/srv/_compute_command.py'...
+[4.253s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.253s] -- Set non-toolchain portion of runtime path of "/home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.254s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.254s] -- Set non-toolchain portion of runtime path of "/home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.254s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.254s] -- Set non-toolchain portion of runtime path of "/home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.254s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_generator_py.so
+[4.255s] -- Set non-toolchain portion of runtime path of "/home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_generator_py.so" to ""
+[4.255s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/srv/ComputeCommand.idl
+[4.255s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/srv/ComputeCommand.srv
+[4.255s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/srv/ComputeCommand_Request.msg
+[4.255s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/srv/ComputeCommand_Response.msg
+[4.255s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/command_server_pkg/command_server
+[4.256s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/ament_index/resource_index/package_run_dependencies/command_server_pkg
+[4.256s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/ament_index/resource_index/parent_prefix_path/command_server_pkg
+[4.256s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/ament_prefix_path.sh
+[4.256s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/ament_prefix_path.dsv
+[4.256s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/path.sh
+[4.256s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/path.dsv
+[4.256s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/local_setup.bash
+[4.256s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/local_setup.sh
+[4.257s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/local_setup.zsh
+[4.257s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/local_setup.dsv
+[4.257s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/package.dsv
+[4.257s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/ament_index/resource_index/packages/command_server_pkg
+[4.257s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_generator_cExport.cmake
+[4.257s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_generator_cExport-noconfig.cmake
+[4.257s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[4.258s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.258s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_introspection_cExport.cmake
+[4.258s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.258s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_cExport.cmake
+[4.258s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[4.258s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_generator_cppExport.cmake
+[4.258s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.259s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.259s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[4.259s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.259s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_cppExport.cmake
+[4.259s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[4.259s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_generator_pyExport.cmake
+[4.259s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_generator_pyExport-noconfig.cmake
+[4.260s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/rosidl_cmake-extras.cmake
+[4.260s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.260s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[4.260s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[4.260s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.260s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.260s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.260s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkgConfig.cmake
+[4.261s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkgConfig-version.cmake
+[4.261s] -- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/package.xml
+[4.263s] Invoked command in '/home/abdullahemirkirecci/project_root/build/command_server_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdullahemirkirecci/project_root/install/sensor_publisher_pkg:/home/abdullahemirkirecci/project_root/install/data_processor_pkg:/opt/ros/humble /usr/bin/cmake --install /home/abdullahemirkirecci/project_root/build/command_server_pkg

@@ -1,0 +1,4 @@
+source;share/command_server_pkg/local_setup.bash
+source;share/command_server_pkg/local_setup.dsv
+source;share/command_server_pkg/local_setup.sh
+source;share/command_server_pkg/local_setup.zsh

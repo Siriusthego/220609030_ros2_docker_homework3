@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from command_server_pkg/srv/ComputeCommand.srv
+// generated code does not contain a copyright notice
+
+
+module command_server_pkg {
+  module srv {
+    struct ComputeCommand_Request {
+      double input;
+    };
+    struct ComputeCommand_Response {
+      string output;
+    };
+  };
+};

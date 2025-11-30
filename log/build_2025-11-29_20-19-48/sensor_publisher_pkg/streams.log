@@ -1,0 +1,23 @@
+[0.903s] Invoking command in '/home/abdullahemirkirecci/project_root/src/sensor_publisher_pkg': PYTHONPATH=/home/abdullahemirkirecci/project_root/build/sensor_publisher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullahemirkirecci/project_root/install/sensor_publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_publisher_pkg build --build-base /home/abdullahemirkirecci/project_root/build/sensor_publisher_pkg/build install --record /home/abdullahemirkirecci/project_root/build/sensor_publisher_pkg/install.log --install-scripts $base/lib/sensor_publisher_pkg --single-version-externally-managed install_data
+[1.141s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.141s]   warnings.warn(
+[1.153s] running egg_info
+[1.154s] writing ../../build/sensor_publisher_pkg/sensor_publisher_pkg.egg-info/PKG-INFO
+[1.154s] writing dependency_links to ../../build/sensor_publisher_pkg/sensor_publisher_pkg.egg-info/dependency_links.txt
+[1.154s] writing entry points to ../../build/sensor_publisher_pkg/sensor_publisher_pkg.egg-info/entry_points.txt
+[1.155s] writing requirements to ../../build/sensor_publisher_pkg/sensor_publisher_pkg.egg-info/requires.txt
+[1.155s] writing top-level names to ../../build/sensor_publisher_pkg/sensor_publisher_pkg.egg-info/top_level.txt
+[1.157s] reading manifest file '../../build/sensor_publisher_pkg/sensor_publisher_pkg.egg-info/SOURCES.txt'
+[1.158s] writing manifest file '../../build/sensor_publisher_pkg/sensor_publisher_pkg.egg-info/SOURCES.txt'
+[1.158s] running build
+[1.158s] running build_py
+[1.159s] running install
+[1.159s] running install_lib
+[1.164s] running install_data
+[1.164s] running install_egg_info
+[1.167s] removing '/home/abdullahemirkirecci/project_root/install/sensor_publisher_pkg/lib/python3.10/site-packages/sensor_publisher_pkg-0.0.1-py3.10.egg-info' (and everything under it)
+[1.167s] Copying ../../build/sensor_publisher_pkg/sensor_publisher_pkg.egg-info to /home/abdullahemirkirecci/project_root/install/sensor_publisher_pkg/lib/python3.10/site-packages/sensor_publisher_pkg-0.0.1-py3.10.egg-info
+[1.168s] running install_scripts
+[1.191s] Installing sensor_publisher script to /home/abdullahemirkirecci/project_root/install/sensor_publisher_pkg/lib/sensor_publisher_pkg
+[1.192s] writing list of installed files to '/home/abdullahemirkirecci/project_root/build/sensor_publisher_pkg/install.log'
+[1.252s] Invoked command in '/home/abdullahemirkirecci/project_root/src/sensor_publisher_pkg' returned '0': PYTHONPATH=/home/abdullahemirkirecci/project_root/build/sensor_publisher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullahemirkirecci/project_root/install/sensor_publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_publisher_pkg build --build-base /home/abdullahemirkirecci/project_root/build/sensor_publisher_pkg/build install --record /home/abdullahemirkirecci/project_root/build/sensor_publisher_pkg/install.log --install-scripts $base/lib/sensor_publisher_pkg --single-version-externally-managed install_data

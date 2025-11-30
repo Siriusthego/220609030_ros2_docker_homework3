@@ -1,0 +1,4 @@
+srv/ComputeCommand.idl
+srv/ComputeCommand.srv
+srv/ComputeCommand_Request.msg
+srv/ComputeCommand_Response.msg

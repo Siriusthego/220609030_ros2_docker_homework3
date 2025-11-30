@@ -1,0 +1,6 @@
+{
+  "package_name": "command_server_pkg",
+  "non_idl_tuples": [
+    "/home/abdullahemirkirecci/project_root/src/command_server_pkg:srv/ComputeCommand.srv"
+  ]
+}

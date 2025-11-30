@@ -1,0 +1,9 @@
+/home/abdullahemirkirecci/project_root/build/my_project/CMakeFiles/uninstall.dir
+/home/abdullahemirkirecci/project_root/build/my_project/CMakeFiles/my_project_uninstall.dir
+/home/abdullahemirkirecci/project_root/build/my_project/CMakeFiles/test.dir
+/home/abdullahemirkirecci/project_root/build/my_project/CMakeFiles/edit_cache.dir
+/home/abdullahemirkirecci/project_root/build/my_project/CMakeFiles/rebuild_cache.dir
+/home/abdullahemirkirecci/project_root/build/my_project/CMakeFiles/list_install_components.dir
+/home/abdullahemirkirecci/project_root/build/my_project/CMakeFiles/install.dir
+/home/abdullahemirkirecci/project_root/build/my_project/CMakeFiles/install/local.dir
+/home/abdullahemirkirecci/project_root/build/my_project/CMakeFiles/install/strip.dir

@@ -1,0 +1,16 @@
+/home/abdullahemirkirecci/project_root/install/my_project/share/my_project/launch/my_project.launch.py
+/home/abdullahemirkirecci/project_root/install/my_project/share/ament_index/resource_index/package_run_dependencies/my_project
+/home/abdullahemirkirecci/project_root/install/my_project/share/ament_index/resource_index/parent_prefix_path/my_project
+/home/abdullahemirkirecci/project_root/install/my_project/share/my_project/environment/ament_prefix_path.sh
+/home/abdullahemirkirecci/project_root/install/my_project/share/my_project/environment/ament_prefix_path.dsv
+/home/abdullahemirkirecci/project_root/install/my_project/share/my_project/environment/path.sh
+/home/abdullahemirkirecci/project_root/install/my_project/share/my_project/environment/path.dsv
+/home/abdullahemirkirecci/project_root/install/my_project/share/my_project/local_setup.bash
+/home/abdullahemirkirecci/project_root/install/my_project/share/my_project/local_setup.sh
+/home/abdullahemirkirecci/project_root/install/my_project/share/my_project/local_setup.zsh
+/home/abdullahemirkirecci/project_root/install/my_project/share/my_project/local_setup.dsv
+/home/abdullahemirkirecci/project_root/install/my_project/share/my_project/package.dsv
+/home/abdullahemirkirecci/project_root/install/my_project/share/ament_index/resource_index/packages/my_project
+/home/abdullahemirkirecci/project_root/install/my_project/share/my_project/cmake/my_projectConfig.cmake
+/home/abdullahemirkirecci/project_root/install/my_project/share/my_project/cmake/my_projectConfig-version.cmake
+/home/abdullahemirkirecci/project_root/install/my_project/share/my_project/package.xml

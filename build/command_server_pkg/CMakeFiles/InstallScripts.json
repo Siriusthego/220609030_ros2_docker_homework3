@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/abdullahemirkirecci/project_root/build/command_server_pkg/cmake_install.cmake",
+		"/home/abdullahemirkirecci/project_root/build/command_server_pkg/command_server_pkg__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

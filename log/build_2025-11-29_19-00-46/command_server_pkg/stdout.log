@@ -1,0 +1,148 @@
+[  3%] Built target command_server_pkg__cpp
+[ 12%] Built target command_server_pkg__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_command_server_pkg
+[ 41%] Built target command_server_pkg__rosidl_typesupport_cpp
+[ 41%] Built target command_server_pkg__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target command_server_pkg__rosidl_typesupport_introspection_cpp
+[ 61%] Built target command_server_pkg__rosidl_typesupport_c
+[ 61%] Built target command_server_pkg__rosidl_typesupport_introspection_c
+[ 70%] Built target command_server_pkg__rosidl_typesupport_fastrtps_c
+[ 70%] Built target command_server_pkg
+[ 74%] Built target command_server_pkg__py
+[ 80%] Built target command_server_pkg__rosidl_generator_py
+[ 93%] Built target command_server_pkg__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target command_server_pkg__rosidl_typesupport_c__pyext
+[100%] Built target command_server_pkg__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing command_server_pkg.egg-info/PKG-INFO
+writing dependency_links to command_server_pkg.egg-info/dependency_links.txt
+writing top-level names to command_server_pkg.egg-info/top_level.txt
+reading manifest file 'command_server_pkg.egg-info/SOURCES.txt'
+writing manifest file 'command_server_pkg.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_command_server_pkg_egg
+-- Install configuration: ""
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/ament_index/resource_index/rosidl_interfaces/command_server_pkg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/compute_command.h
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__functions.h
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__functions.c
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__type_support.h
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__struct.h
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/library_path.sh
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/library_path.dsv
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_generator_c.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__type_support.c
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_c.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/compute_command.hpp
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__builder.hpp
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__type_support.hpp
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__traits.hpp
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__struct.hpp
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/dds_fastrtps
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__type_support.cpp
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/include/command_server_pkg/command_server_pkg/srv/detail/compute_command__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/pythonpath.sh
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/pythonpath.dsv
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg-0.0.0-py3.10.egg-info
+-- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/libcommand_server_pkg__rosidl_generator_py.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/srv
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/srv/_compute_command.py
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/srv/_compute_command_s.c
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/srv/__init__.py
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/_command_server_pkg_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/__init__.py
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/_command_server_pkg_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/_command_server_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg'...
+Listing '/home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/srv'...
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/local/lib/python3.10/dist-packages/command_server_pkg/command_server_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/libcommand_server_pkg__rosidl_generator_py.so
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/srv/ComputeCommand.idl
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/srv/ComputeCommand.srv
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/srv/ComputeCommand_Request.msg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/srv/ComputeCommand_Response.msg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/lib/command_server_pkg/command_server
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/ament_index/resource_index/package_run_dependencies/command_server_pkg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/ament_index/resource_index/parent_prefix_path/command_server_pkg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/path.sh
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/environment/path.dsv
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/local_setup.bash
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/local_setup.sh
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/local_setup.zsh
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/local_setup.dsv
+-- Installing: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/package.dsv
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/ament_index/resource_index/packages/command_server_pkg
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/export_command_server_pkg__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkgConfig.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/cmake/command_server_pkgConfig-version.cmake
+-- Up-to-date: /home/abdullahemirkirecci/project_root/install/command_server_pkg/share/command_server_pkg/package.xml

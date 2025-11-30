@@ -1,0 +1,22 @@
+[0.014s] Invoking command in '/home/abdullahemirkirecci/project_root/build/my_project': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abdullahemirkirecci/project_root/build/my_project -- -j8 -l8
+[0.057s] Invoked command in '/home/abdullahemirkirecci/project_root/build/my_project' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abdullahemirkirecci/project_root/build/my_project -- -j8 -l8
+[0.063s] Invoking command in '/home/abdullahemirkirecci/project_root/build/my_project': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abdullahemirkirecci/project_root/build/my_project
+[0.068s] -- Install configuration: ""
+[0.068s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/launch
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/launch/my_project.launch.py
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/ament_index/resource_index/package_run_dependencies/my_project
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/ament_index/resource_index/parent_prefix_path/my_project
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/environment/ament_prefix_path.sh
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/environment/ament_prefix_path.dsv
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/environment/path.sh
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/environment/path.dsv
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/local_setup.bash
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/local_setup.sh
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/local_setup.zsh
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/local_setup.dsv
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/package.dsv
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/ament_index/resource_index/packages/my_project
+[0.069s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/cmake/my_projectConfig.cmake
+[0.070s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/cmake/my_projectConfig-version.cmake
+[0.070s] -- Up-to-date: /home/abdullahemirkirecci/project_root/install/my_project/share/my_project/package.xml
+[0.071s] Invoked command in '/home/abdullahemirkirecci/project_root/build/my_project' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abdullahemirkirecci/project_root/build/my_project

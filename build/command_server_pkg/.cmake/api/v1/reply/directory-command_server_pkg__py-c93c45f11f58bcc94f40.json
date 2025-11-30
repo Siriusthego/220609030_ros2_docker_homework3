@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "command_server_pkg__py",
+		"source" : "/home/abdullahemirkirecci/project_root/build/command_server_pkg/command_server_pkg__py"
+	}
+}
