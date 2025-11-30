@@ -32,6 +32,7 @@ Bu düğümler **my_project** adlı launch paketi ile tek komutla çalıştırı
 
 # Proje Klasör Yapısı
 
+```
 project_root/
 │
 ├── Dockerfile
@@ -45,7 +46,7 @@ project_root/
 ├── data_processor_pkg/
 ├── command_server_pkg/
 └── my_project/ Launch paketi
-
+```
 
 ---
 
@@ -105,8 +106,11 @@ Bu komut ile:
 
 ## Servis testi:
 
+```
  ros2 service list
  ros2 service call /compute_command command_server_pkg/srv/ComputeCommand "{input: 12.5}"
+```
+
 Beklenen sonuç:
 12.5 → "HIGH"
 5.0 → "LOW"
@@ -115,16 +119,16 @@ Beklenen sonuç:
 
 Eğer şu hatayı görürseniz:
 
-Package 'my_project' not found
+- Package 'my_project' not found
 
 Bu, terminalinizin workspace’i görmediği anlamına gelir.
-
 Her yeni terminal açtığınızda:
 
+```
 cd ~/project_root
 source /opt/ros/humble/setup.bash
 source install/setup.bash
-
+```
 Doğrulamak için:
 ros2 pkg list | grep my_project
 
@@ -132,11 +136,7 @@ ros2 pkg list | grep my_project
 
 ssf.sh çalıştırılarak:
 
-SSF RAW
-
-SSF SHA256 Hash
-
-üretilmiştir.
+- SSF RAW, SSF SHA256 Hash üretilmiştir.
 
 Oluşan dosya:
 ~/project_root/SSF_HASH.txt
