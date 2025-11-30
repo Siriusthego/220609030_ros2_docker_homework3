@@ -42,10 +42,10 @@ project_root/
 ├── README.md
 │
 └── src/
-├── sensor_publisher_pkg/
-├── data_processor_pkg/
-├── command_server_pkg/
-└── my_project/ Launch paketi
+	├── sensor_publisher_pkg/
+	├── data_processor_pkg/
+	├── command_server_pkg/
+	└── my_project/ Launch paketi
 ```
 
 ---
